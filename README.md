@@ -96,7 +96,7 @@ git clone https://github.com/brunocampos01/challenge-keyrus
 - To learn more about the environment that has been developed, access the file `config_environment.txt`
 
 ## Running
-- In terminal running command `jupyter-notebook` and navigate to the `notebooks/`
+- In terminal running command `jupyter-notebook` and navigate in this repository.`challenge-keyrus/`
 
 ---
 
