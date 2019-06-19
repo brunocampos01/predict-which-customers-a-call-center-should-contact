@@ -6,7 +6,6 @@
 Desafio para vaga Data Science na Keyrus.
 
 ## Struture this Project
-
 ```
 .
 ├── config_environment.txt
@@ -50,10 +49,11 @@ sudo apt-get install Python3.7.3
 sudo apt-get install python3-pip
 ```
 
-- Libraries
+- Libraries<br/>
 Será instalado no pip real
 ```sh
-pip3 install virtualenv==16.6.0 pipreqs==0.4.9
+pip3 install --user virtualenv==16.6.0 \
+                    pipreqs==0.4.9
 ```
 
 - Git
@@ -62,6 +62,10 @@ sudo apt-get install git
 ```
 
 ## Quickstart
+1. [analise-exploratoria](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/1-analise-exploratoria.ipynb)
+2. [estatitica](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/2-estatistica.ipynb)
+3. [modelagem](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/3-modelagem.ipynb)
+
 
 ## Install
 - Clone este repositório
@@ -69,7 +73,7 @@ sudo apt-get install git
 git clone https://github.com/brunocampos01/challenge-keyrus
 ```
 
-- Todo o desenvolvimento foi realizado utilizado virtualenv, para executar nas mesmas condições siga os passos abaixo:
+- Todo o desenvolvimento foi realizado utilizado virtualenv. Para executar nas mesmas condições siga os passos abaixo:
 
     - Crie uma virtualenv
     ```sh
@@ -82,15 +86,15 @@ git clone https://github.com/brunocampos01/challenge-keyrus
     source venv_keyrus/bin/activate
     ```
 
-    - Instale as Libraries
+    - Instale as libraries
     ```sh
     pip3 install -r external_requirements.txt requirements.txt
     ```
 
 - Caso a máquina não tenha a versão recomendada do Python, rode em um container.
+- Para saber mais informações sobre o ambiente que foi desenvolvido, acesse o arquivo `config_environment.txt`
 
 ## Running
-
 - No terminal execute o comando `jupyter-notebook` e navegue até no diretório `notebooks/`
 
 ---
