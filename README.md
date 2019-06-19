@@ -1,4 +1,5 @@
 # Challenge: Data Science at keyrus
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/dc8f3d44dd67408db24f72c924e38005)](https://app.codacy.com/app/brunocampos01/challenge-keyrus?utm_source=github.com&utm_medium=referral&utm_content=brunocampos01/challenge-keyrus&utm_campaign=Badge_Grade_Dashboard)
 [![Python 3.7](https://img.shields.io/badge/python-3.7-yellow.svg)](https://www.python.org/downloads/release/python-371/)
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 
