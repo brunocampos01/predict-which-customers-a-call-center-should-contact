@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 
 ## Describe Project
-Challenge for Data Scientist at Keyrus.
+Challenge for Data Scientist job at Keyrus.
 
 ## Quickstart
 1. [analise-exploratoria](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/1-analise-exploratoria.ipynb)
