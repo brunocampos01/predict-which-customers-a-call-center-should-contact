@@ -90,6 +90,8 @@ ENV/
 env.bak/
 venv.bak/
 XDG_CACHE_HOME/*
+processo_seletivo_ciencia_de_dados_keyrus.pdf
+teste_tecnico.zip
 
 # Spyder project settings
 .spyderproject

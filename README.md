@@ -3,7 +3,7 @@
 [![Python 3.7](https://img.shields.io/badge/python-3.7-yellow.svg)](https://www.python.org/downloads/release/python-371/)
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 
-## Describe project
+## Describe Project
 Challenge for Data Scientist at Keyrus.
 
 ## Quickstart
@@ -18,7 +18,7 @@ Challenge for Data Scientist at Keyrus.
 ├── data
 │   ├── callcenter_descricao.txt
 │   └── callcenter_marketing.csv
-├── external_requirements.txt # libs necessary to create environment
+├── external_requirements.txt     # libs necessary to prepare virtual environment
 ├── __init__.py
 ├── LICENSE
 ├── notebooks
@@ -31,7 +31,7 @@ Challenge for Data Scientist at Keyrus.
 │   └── teste_tecnico.zip
 ├── reports
 │   └── callcenter_marketing_clenning.csv
-├── requirements.txt  # libs necessary in notebooks
+├── requirements.txt              # libs necessary in notebooks
 ├── src
 │   ├── create_requirements.sh
 │   ├── __init__.py
@@ -78,7 +78,7 @@ git clone https://github.com/brunocampos01/challenge-keyrus
   ```sh
   virtualenv -p python3 venv_keyrus
   ```
-  
+
   - Activate this semi-isolated environment
   ```sh
   source venv_keyrus/bin/activate
@@ -89,7 +89,9 @@ git clone https://github.com/brunocampos01/challenge-keyrus
   pip3 install -r external_requirements.txt requirements.txt
   ```
 
--If the machine does not have the recommended version of Python, run it in a container.
+- If the machine does not have the recommended version of Python, run it in a container.
+
+
 - To learn more about the environment that has been developed, access the file `config_environment.txt`
 
 ## Running
