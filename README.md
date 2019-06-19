@@ -4,7 +4,12 @@
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 
 ## Describe project
-Desafio para vaga Data Science na Keyrus.
+Challenge for Data Scientist at Keyrus.
+
+## Quickstart
+1. [analise-exploratoria](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/1-analise-exploratoria.ipynb)
+2. [estatitica](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/2-estatistica.ipynb)
+3. [modelagem](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/3-modelagem.ipynb)
 
 ## Struture this Project
 ```
@@ -51,7 +56,7 @@ sudo apt-get install python3-pip
 ```
 
 - Libraries<br/>
-Será instalado no pip real
+Will be installed in real pip
 ```sh
 pip3 install --user virtualenv==16.6.0 \
                     pipreqs==0.4.9
@@ -62,41 +67,33 @@ pip3 install --user virtualenv==16.6.0 \
 sudo apt-get install git
 ```
 
-## Quickstart
-1. [analise-exploratoria](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/1-analise-exploratoria.ipynb)
-2. [estatitica](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/2-estatistica.ipynb)
-3. [modelagem](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/3-modelagem.ipynb)
-
-
 ## Install
-- Clone este repositório
+- Clone this repository
 ```sh
 git clone https://github.com/brunocampos01/challenge-keyrus
 ```
 
-- Todo o desenvolvimento foi realizado utilizado virtualenv. Para executar nas mesmas condições siga os passos abaixo:
+- All the development was done using **virtualenv**. To perform under the same conditions follow the steps below:
+  - Create a virtualenv
+  ```sh
+  virtualenv -p python3 venv_keyrus
+  ```
+  
+  - Activate this semi-isolated environment
+  ```sh
+  source venv_keyrus/bin/activate
+  ```
 
-    - Crie uma virtualenv
-    ```sh
+  - Install the libraries
+  ```sh
+  pip3 install -r external_requirements.txt requirements.txt
+  ```
 
-    virtualenv -p python3 venv_keyrus
-    ```
-
-    - Ative este ambiente semi-isolado
-    ```sh
-    source venv_keyrus/bin/activate
-    ```
-
-    - Instale as libraries
-    ```sh
-    pip3 install -r external_requirements.txt requirements.txt
-    ```
-
-- Caso a máquina não tenha a versão recomendada do Python, rode em um container.
-- Para saber mais informações sobre o ambiente que foi desenvolvido, acesse o arquivo `config_environment.txt`
+-If the machine does not have the recommended version of Python, run it in a container.
+- To learn more about the environment that has been developed, access the file `config_environment.txt`
 
 ## Running
-- No terminal execute o comando `jupyter-notebook` e navegue até no diretório `notebooks/`
+- In terminal running command `jupyter-notebook` and navigate to the `notebooks/`
 
 ---
 
