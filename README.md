@@ -91,7 +91,7 @@ git clone https://github.com/brunocampos01/challenge-keyrus
 
 - If the machine does not have the recommended version of Python, run it in a container.
 
-
+docker run --rm -p 8888:8888 -p 4040:4040 -e JUPYTER_ENABLE_LAB=yes -v ~:/home/jovyan/work jupyter/all-spark-notebook
 - To learn more about the environment that has been developed, access the file `config_environment.txt`
 
 ## Running
