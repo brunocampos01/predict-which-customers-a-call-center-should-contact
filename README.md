@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 
 ## Describe Project
-Challenge for Data Scientist at Keyrus.
+Challenge for Data Scientist job at Keyrus.
 
 ## Quickstart
 1. [analise-exploratoria](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/1-analise-exploratoria.ipynb)
@@ -86,7 +86,8 @@ git clone https://github.com/brunocampos01/challenge-keyrus
 
   - Install the libraries
   ```sh
-  pip3 install -r external_requirements.txt requirements.txt
+  pip3 install -r external_requirements.txt # libs necessary to prepare virtual environment
+  pip3 install -r requirements.txt          # libs necessary in notebooks
   ```
 
 - If the machine does not have the recommended version of Python, run it in a container.
@@ -95,7 +96,7 @@ docker run --rm -p 8888:8888 -p 4040:4040 -e JUPYTER_ENABLE_LAB=yes -v ~:/home/j
 - To learn more about the environment that has been developed, access the file `config_environment.txt`
 
 ## Running
-- In terminal running command `jupyter-notebook` and navigate to the `notebooks/`
+- In terminal running command `jupyter-notebook` and navigate in this repository.`challenge-keyrus/`
 
 ---
 
