@@ -45,7 +45,7 @@ Challenge for Data Scientist job at Keyrus.
 ```
 
 ## Requirements
-- Python 3.7.3 ou superior:<br/>
+- Python 3.7.3 or more:<br/>
 ```sh
 sudo apt-get install Python3.7.3
 ```
