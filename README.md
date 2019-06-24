@@ -86,8 +86,8 @@ git clone https://github.com/brunocampos01/challenge-keyrus
 
   - Install the libraries
   ```sh
-  pip3 install -r external_requirements.txt # libs necessary to prepare virtual environment
-  pip3 install -r requirements.txt          # libs necessary in notebooks
+  pip3 install -r src/environment/virtualenv_requirements.txt # libs necessary to prepare virtual environment
+  pip3 install -r requirements.txt                            # libs necessary in notebooks
   ```
 
 - If the machine does not have the recommended version of Python, run it in a container.
