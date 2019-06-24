@@ -82,14 +82,13 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
-.env
+
 .venv
-env*/
 venv*/
-ENV/
-env.bak/
+env.ba/
 venv.bak/
 XDG_CACHE_HOME/*
+XDG_CACHE_HOME/
 processo_seletivo_ciencia_de_dados_keyrus.pdf
 teste_tecnico.zip
 

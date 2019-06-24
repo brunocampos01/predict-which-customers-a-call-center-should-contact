@@ -1,0 +1,40 @@
+.
+├── data
+│   ├── callcenter_descricao.txt
+│   ├── cleansing
+│   │   └── callcenter_marketing_clenning.csv
+│   └── raw
+│       └── callcenter_marketing.csv
+├── __init__.py
+├── LICENSE
+├── notebooks
+│   ├── 1-analise-exploratoria.ipynb
+│   ├── 2-estatistica.ipynb
+│   └── 3-modelagem.ipynb
+├── README.md
+├── references
+│   ├── processo_seletivo_ciencia_de_dados_keyrus.pdf
+│   └── teste_tecnico.zip
+├── reports
+│   └── callcenter_marketing_clenning.csv
+├── requirements.txt
+├── src
+│   ├── environment
+│   │   ├── config_environment.txt
+│   │   ├── create_requirements.sh
+│   │   ├── create_virtual_env.sh
+│   │   ├── __init__.py
+│   │   ├── makefile
+│   │   ├── prepare_env.py
+│   │   ├── README.md
+│   │   ├── show_config_environment.sh
+│   │   ├── show_struture_project.sh
+│   │   ├── struture_project.txt
+│   │   ├── test_environment.py
+│   │   └── virtualenv_requirements.txt
+│   ├── __init__.py
+│   └── visualization
+│       └── plot_config.ini
+└── venv_keyrus
+
+10 directories, 27 files
