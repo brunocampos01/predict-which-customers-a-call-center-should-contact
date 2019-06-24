@@ -33,16 +33,3 @@ source venv_keyrus/bin/activate
 pip3 install -r virtualenv_requirements.txt # libs necessary to prepare virtual environment
 pip3 install -r requirements.txt            # libs necessary in notebooks
 ```
-
-###### In development
-5. Install module
-```sh
-python3 ../setup.py install
-```
-
-6. Execute Tests
-...
-
----
-
-### Execute in container
