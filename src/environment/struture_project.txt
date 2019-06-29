@@ -16,7 +16,10 @@
 │   ├── processo_seletivo_ciencia_de_dados_keyrus.pdf
 │   └── teste_tecnico.zip
 ├── reports
-│   └── callcenter_marketing_clenning.csv
+│   └── images
+│       ├── correlation.png
+│       ├── correlation_resultado_0.png
+│       └── correlation_resultado_1.png
 ├── requirements.txt
 ├── src
 │   ├── environment
@@ -37,4 +40,4 @@
 │       └── plot_config.ini
 └── venv_keyrus
 
-10 directories, 27 files
+11 directories, 29 files

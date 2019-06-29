@@ -29,10 +29,10 @@ traitlets        : 4.3.2
 Disk Usage:
 
 data:
-6,7M	data/
+6,9M	data/
 
 virtual env:
 658M	venv_keyrus/
 
 all:
-676M	.
+680M	.
