@@ -1,10 +1,3 @@
-### VisualStudioCode template
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
 ### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -110,6 +103,39 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+### Linux template
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+
+### VirtualEnv template
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+
 ### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
@@ -164,11 +190,18 @@ fabric.properties
 # Editor-based Rest Client
 .idea/httpRequests
 
-.venv
-venv*/
-env.ba/
-venv.bak/
-XDG_CACHE_HOME/*
-XDG_CACHE_HOME/
-processo_seletivo_ciencia_de_dados_keyrus.pdf
-teste_tecnico.zip
+### VisualStudioCode template
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+
+# Git
+.git/
+.gitignore
+
+# Dockerfile
+Dockerfile
+.dockerignore

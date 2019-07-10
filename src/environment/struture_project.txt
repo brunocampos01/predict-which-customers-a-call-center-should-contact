@@ -5,7 +5,6 @@
 │   │   └── callcenter_marketing_clenning.csv
 │   └── raw
 │       └── callcenter_marketing.csv
-├── __init__.py
 ├── LICENSE
 ├── notebooks
 │   ├── 1-analise-exploratoria.ipynb
@@ -20,24 +19,27 @@
 │       ├── correlation.png
 │       ├── correlation_resultado_0.png
 │       └── correlation_resultado_1.png
-├── requirements.txt
-├── src
-│   ├── environment
-│   │   ├── config_environment.txt
-│   │   ├── create_requirements.sh
-│   │   ├── create_virtual_env.sh
-│   │   ├── __init__.py
-│   │   ├── makefile
-│   │   ├── prepare_env.py
-│   │   ├── README.md
-│   │   ├── show_config_environment.sh
-│   │   ├── show_struture_project.sh
-│   │   ├── struture_project.txt
-│   │   ├── test_environment.py
-│   │   └── virtualenv_requirements.txt
-│   ├── __init__.py
-│   └── visualization
-│       └── plot_config.ini
-└── venv_keyrus
+└── src
+    ├── environment
+    │   ├── config_environment.txt
+    │   ├── container
+    │   │   └── Dockerfile
+    │   ├── create_requirements.sh
+    │   ├── create_virtual_env.sh
+    │   ├── __init__.py
+    │   ├── jupyter_notebook_config.py
+    │   ├── makefile
+    │   ├── prepare_env.py
+    │   ├── README.md
+    │   ├── requirements.txt
+    │   ├── show_config_environment.sh
+    │   ├── show_struture_project.sh
+    │   ├── struture_project.txt
+    │   ├── test_environment.py
+    │   ├── venv
+    │   └── virtualenv_requirements.txt
+    ├── __init__.py
+    └── visualization
+        └── plot_config.ini
 
-11 directories, 29 files
+12 directories, 30 files
