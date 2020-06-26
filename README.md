@@ -1,4 +1,5 @@
-# Challenge: Data Science at keyrus
+# Challenge: Data Scientist at keyrus
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/dc8f3d44dd67408db24f72c924e38005)](https://app.codacy.com/manual/brunocampos01/challenge-keyrus?utm_source=github.com&utm_medium=referral&utm_content=brunocampos01/challenge-keyrus&utm_campaign=Badge_Grade_Dashboard)
 [![Python 3.7](https://img.shields.io/badge/python-3.7-yellow.svg)](https://www.python.org/downloads/release/python-371/)
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 
@@ -13,12 +14,12 @@ Challenge for Data Scientist job at Keyrus.
 ## Struture this Project
 ```
 .
-├── config_environment.txt
 ├── data
 │   ├── callcenter_descricao.txt
-│   └── callcenter_marketing.csv
-├── external_requirements.txt     # libs necessary to prepare virtual environment
-├── __init__.py
+│   ├── cleansing
+│   │   └── callcenter_marketing_clenning.csv
+│   └── raw
+│       └── callcenter_marketing.csv
 ├── LICENSE
 ├── notebooks
 │   ├── 1-analise-exploratoria.ipynb
@@ -29,22 +30,38 @@ Challenge for Data Scientist job at Keyrus.
 │   ├── processo_seletivo_ciencia_de_dados_keyrus.pdf
 │   └── teste_tecnico.zip
 ├── reports
-│   └── callcenter_marketing_clenning.csv
-├── requirements.txt              # libs necessary in notebooks
-├── src
-│   ├── create_requirements.sh
-│   ├── __init__.py
-│   ├── prepare_environment.py
-│   ├── show_config_environment.sh
-│   └── show_struture_project.sh
-├── struture_project.txt
-└── venv_keyrus
+│   └── images
+│       ├── correlation.png
+│       ├── correlation_resultado_0.png
+│       └── correlation_resultado_1.png
+└── src
+    ├── environment
+    │   ├── config_environment.txt
+    │   ├── container
+    │   │   └── Dockerfile
+    │   ├── create_requirements.sh
+    │   ├── create_virtual_env.sh
+    │   ├── __init__.py
+    │   ├── jupyter_notebook_config.py
+    │   ├── makefile
+    │   ├── prepare_env.py
+    │   ├── README.md
+    │   ├── requirements.txt
+    │   ├── show_config_environment.sh
+    │   ├── show_struture_project.sh
+    │   ├── struture_project.txt
+    │   ├── test_environment.py
+    │   ├── venv
+    │   └── virtualenv_requirements.txt
+    ├── __init__.py
+    └── visualization
+        └── plot_config.ini
 
-6 directories, 20 files
+12 directories, 30 files
 ```
 
 ## Requirements
-- Python 3.7.3 or more:<br/>
+- Python 3.7.3 or more<br/>
 ```sh
 sudo apt-get install Python3.7.3
 ```
@@ -54,11 +71,9 @@ sudo apt-get install Python3.7.3
 sudo apt-get install python3-pip
 ```
 
-- Libraries<br/>
-Will be installed in real pip
+- Python Virtual Environment
 ```sh
-pip3 install --user virtualenv==16.6.0 \
-                    pipreqs==0.4.9
+pip3 install --user virtualenv==16.6.0
 ```
 
 - Git
@@ -66,40 +81,33 @@ pip3 install --user virtualenv==16.6.0 \
 sudo apt-get install git
 ```
 
-## Install
-- Clone this repository
+## Running
+1. Clone this repository
 ```sh
 git clone https://github.com/brunocampos01/challenge-keyrus
+cd challenge-keyrus
 ```
 
-- All the development was done using **virtualenv**. To perform under the same conditions follow the steps below:
-  - Create a virtualenv
-  ```sh
-  virtualenv -p python3 venv_keyrus
-  ```
+2. Choose which environment to running
+ - [local](src/environment/README.md)
+ - [virtual environment](src/environment/README.md)
+ - [container](src/environment/README.md)
 
-  - Activate this semi-isolated environment
-  ```sh
-  source venv_keyrus/bin/activate
-  ```
+3. In terminal running command `jupyter-notebook` and navigate in this repository: `challenge-keyrus/notebooks`
 
-  - Install the libraries
-  ```sh
-  pip3 install -r src/environment/virtualenv_requirements.txt # libs necessary to prepare virtual environment
-  pip3 install -r requirements.txt                            # libs necessary in notebooks
-  ```
-
-- If the machine does not have the recommended version of Python, run it in a container.
-
-- To learn more about the environment that has been developed, access the file `config_environment.txt`
-
-## Running
-- In terminal running command `jupyter-notebook` and navigate in this repository: `challenge-keyrus/notebooks`
+##### NOTES
+- All the development was done using **virtualenv**. 
+- To learn more about the environment that has been developed, access the file [config_environment.txt](src/environment/config_environment.txt)
 
 ---
 
-## Author
-- Bruno Aurélio Rôzza de Moura Campos (brunocampos01@gmail.com)
+#### Author
+<a href="mailto:brunocampos01@gmail.com" target="_blank"><img class="" src="https://github.com/brunocampos01/devops/blob/master/images/gmail.png" width="28"></a>
+<a href="https://github.com/brunocampos01" target="_blank"><img class="ai-subscribed-social-icon" src="https://github.com/brunocampos01/devops/blob/master/images/github.png" width="30"></a>
+<a href="https://www.linkedin.com/in/brunocampos01/" target="_blank"><img class="ai-subscribed-social-icon" src="https://github.com/brunocampos01/devops/blob/master/images/linkedin.png" width="30"></a>
+Bruno Aurélio Rôzza de Moura Campos 
 
-## Copyright
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Bruno A. R. M. Campos</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+---
+
+#### Copyright
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br/>
