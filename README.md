@@ -2,62 +2,29 @@
 [![Python 3](https://img.shields.io/badge/Python-3-blue.svg)](https://www.python.org/downloads/release/python-381/)
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 
+<img src="references/call_center.png" align="right" height=auto width=50%/>
+
+
 ## Describe Project
 Challenge for Data Scientist job at Keyrus.
 
+## Objectives
+The objective is to predict which customers a call center should contact to close a sale.
+
+## Data Source
+In this repository: [raw](https://github.com/brunocampos01/challenge-keyrus/tree/master/data)
+
+## Algorithms
+- Linear Regression (baseline)
+- Linear Regression with Regularization
+- Polynomial Regression
+- Random Forest
+- Random Forest Regressor
+
 ## Quickstart
-1. [analise-exploratoria](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/1-analise-exploratoria.ipynb)
-2. [estatitica](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/2-estatistica.ipynb)
-3. [modelagem](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/3-modelagem.ipynb)
-
-## Struture this Project
-```
-.
-├── data
-│   ├── callcenter_descricao.txt
-│   ├── cleansing
-│   │   └── callcenter_marketing_clenning.csv
-│   └── raw
-│       └── callcenter_marketing.csv
-├── LICENSE
-├── notebooks
-│   ├── 1-analise-exploratoria.ipynb
-│   ├── 2-estatistica.ipynb
-│   └── 3-modelagem.ipynb
-├── README.md
-├── references
-│   ├── processo_seletivo_ciencia_de_dados_keyrus.pdf
-│   └── teste_tecnico.zip
-├── reports
-│   └── images
-│       ├── correlation.png
-│       ├── correlation_resultado_0.png
-│       └── correlation_resultado_1.png
-└── src
-    ├── environment
-    │   ├── config_environment.txt
-    │   ├── container
-    │   │   └── Dockerfile
-    │   ├── create_requirements.sh
-    │   ├── create_virtual_env.sh
-    │   ├── __init__.py
-    │   ├── jupyter_notebook_config.py
-    │   ├── makefile
-    │   ├── prepare_env.py
-    │   ├── README.md
-    │   ├── requirements.txt
-    │   ├── show_config_environment.sh
-    │   ├── show_struture_project.sh
-    │   ├── struture_project.txt
-    │   ├── test_environment.py
-    │   ├── venv
-    │   └── virtualenv_requirements.txt
-    ├── __init__.py
-    └── visualization
-        └── plot_config.ini
-
-12 directories, 30 files
-```
+1. [Data analysis and data cleaning](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/1-analise-exploratoria.ipynb)
+2. [Data Exploration and Feature Engineering](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/2-estatistica.ipynb)
+3. [Modeling and Evaluation](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/3-modelagem.ipynb)
 
 ## Requirements
 This project is tested with:
@@ -69,24 +36,6 @@ This project is tested with:
 | Git            | 2.25.1   |
 
 I recommend using Python [venv](https://github.com/brunocampos01/becoming-a-expert-python#virtual-environment).
-
-## Running
-1. Clone this repository
-```sh
-git clone https://github.com/brunocampos01/challenge-keyrus
-cd challenge-keyrus
-```
-
-2. Choose which environment to running
- - [local](src/environment/README.md)
- - [virtual environment](src/environment/README.md)
- - [container](src/environment/README.md)
-
-3. In terminal running command `jupyter-notebook` and navigate in this repository: `challenge-keyrus/notebooks`
-
-##### NOTES
-- All the development was done using **virtualenv**. 
-- To learn more about the environment that has been developed, access the file [config_environment.txt](src/environment/config_environment.txt)
 
 ---
 
