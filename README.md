@@ -1,4 +1,4 @@
-# Challenge: Data Scientist at keyrus
+# Predict Which Customers a Call Center Should Contact
 [![Python 3](https://img.shields.io/badge/Python-3-gray.svg)](https://www.python.org/downloads/release/python-381/)
 ![License](https://img.shields.io/badge/Code%20License-MIT-gray.svg)
 
@@ -6,7 +6,7 @@
 
 
 ## Describe Project
-Challenge for Data Scientist job at Keyrus.
+Job challenge for a Data Scientist at [Keyrus](https://keyrus.com/worldwide/home).
 
 ## Objectives
 The objective is to predict which customers a call center should contact to close a sale.
