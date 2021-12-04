@@ -1,6 +1,6 @@
 # Challenge: Data Scientist at keyrus
-[![Python 3](https://img.shields.io/badge/Python-3-blue.svg)](https://www.python.org/downloads/release/python-381/)
-![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
+[![Python 3](https://img.shields.io/badge/Python-3-gray.svg)](https://www.python.org/downloads/release/python-381/)
+![License](https://img.shields.io/badge/Code%20License-MIT-gray.svg)
 
 <img src="references/call_center.png" align="right" height=auto width=50%/>
 
