@@ -22,7 +22,7 @@ In this repository: [raw](https://github.com/brunocampos01/challenge-keyrus/tree
 - Random Forest Regressor
 
 ## Quickstart
-1. [Data analysis and Data Cleaning](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/1-analise-exploratoria.ipynb)
+1. [Data Analysis and Data Cleaning](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/1-analise-exploratoria.ipynb)
 2. [Data Exploration and Feature Engineering](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/2-estatistica.ipynb)
 3. [Modeling and Evaluation](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/3-modelagem.ipynb)
 
