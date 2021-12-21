@@ -22,9 +22,9 @@ In this repository: [raw](https://github.com/brunocampos01/challenge-keyrus/tree
 - Random Forest Regressor
 
 ## Quickstart
-1. [Data Analysis and Data Cleaning](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/1-analise-exploratoria.ipynb)
-2. [Data Exploration and Feature Engineering](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/2-estatistica.ipynb)
-3. [Modeling and Evaluation](https://github.com/brunocampos01/challenge-keyrus/blob/master/notebooks/3-modelagem.ipynb)
+1. [Data Analysis and Data Cleaning](https://github.com/brunocampos01/predict-which-customers-a-call-center-should-contact/blob/master/notebooks/1-data_exploration-data_cleasing.ipynb)
+2. [Data Exploration and Feature Engineering](https://github.com/brunocampos01/predict-which-customers-a-call-center-should-contact/blob/master/notebooks/2-data_exploration-stats_feature-eng.ipynb)
+3. [Modeling and Evaluation](https://github.com/brunocampos01/predict-which-customers-a-call-center-should-contact/blob/master/notebooks/3-modeling_evaluation.ipynb)
 
 ## Requirements
 This project is tested with:
