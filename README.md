@@ -1,4 +1,4 @@
-# Predict Which Customers a Call Center Should Contact
+# Predict which customers should a call-center call for greater assertiveness in a sale
 [![Python 3](https://img.shields.io/badge/Python-3-gray.svg)](https://www.python.org/downloads/release/python-381/)
 ![License](https://img.shields.io/badge/Code%20License-MIT-gray.svg)
 
@@ -33,9 +33,14 @@ This project is tested with:
 |----------------|----------|
 | Python         | 3.9.7    |
 | Pip            | 21.2.4   |
-| Git            | 2.25.1   |
 
 I recommend using Python [venv](https://github.com/brunocampos01/becoming-a-expert-python#virtual-environment).
+
+#### Install Libraries
+```
+pip install --require-hashes -r requirements.txt
+```
+
 
 ---
 
